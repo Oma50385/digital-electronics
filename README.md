@@ -1,8 +1,5 @@
 # digital-electronics
 1. My name is Roman.
-2. I speak russian and it is my project of digital-electronics-1
-plus of my project:
-
 KOMUNICATION WITH FRIENDS
 
 <picture>
