@@ -1,7 +1,7 @@
 # Lab 1: INSERT_YOUR_FIRSTNAME INSERT_YOUR_LASTNAME
 
 ### De Morgan's laws
-
+Roman Lunin
 1. Equations of all three versions of logic function f(c,b,a):
 
    ![Logic function](images/equations.png)
