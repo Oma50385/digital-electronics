@@ -10,7 +10,6 @@
    f_{\textup{(N)OR}}(c,b,a) =&\\
 \end{align*}
 
-   ![Logic function](images/equations.png)
 
 2. Listing of VHDL architecture from design file (`design.vhd`) for all three functions. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
