@@ -1,7 +1,7 @@
-# Lab 1: INSERT_YOUR_FIRSTNAME INSERT_YOUR_LASTNAME
+# Lab 1: Roman Lunin
 
 ### De Morgan's laws
-Roman Lunin
+
 1. Equations of all three versions of logic function f(c,b,a):
 
 
@@ -13,8 +13,8 @@ Roman Lunin
 architecture dataflow of gates is
 begin
     f_orig_o <= (not(b_i) and a_i) or (c_i and not(b_i or not(a_i)));
-    f_nand_o <= b_i nand a_i; -- MODIFY THIS FUNCTION
-    f_nor_o  <= b_i nor a_i;  -- MODIFY THIS FUNCTION
+    f_nand_o <= (not(b_i or not(a_i)) or not(not(c_i) or (b_i or not(a_i))));
+    f_nor_o  <= a_i and not(b_i);
 end architecture dataflow;
 ```
 
