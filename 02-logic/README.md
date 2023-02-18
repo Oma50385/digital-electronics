@@ -6,11 +6,11 @@
 
   B is greater than A:
 
-   ![K-maps](https://github.com/Oma50385/digital-electronics/blob/main/02-logic/photo_2023-02-18_19-10-46.jpg)
+   ![K-maps](https://github.com/Oma50385/digital-electronics/blob/main/02-logic/BisgraterthanA.png)
 
    B is less than A:
 
-   ![K-maps](https://github.com/Oma50385/digital-electronics/blob/main/02-logic/photo123.jpg)
+   ![K-maps](https://github.com/Oma50385/digital-electronics/blob/main/02-logic/BislessthanA.png)
 
 2. Mark the largest possible implicants in the K-map and according to them, write the equations of simplified SoP (Sum of the Products) form of the "greater than" function and simplified PoS (Product of the Sums) form of the "less than" function.
 
