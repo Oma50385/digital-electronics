@@ -4,11 +4,11 @@
 
 1. Karnaugh maps for other two functions of 2-bit comparator:
 
-  B is greater than A:
+  B > A:
 
    ![K-maps](https://github.com/Oma50385/digital-electronics/blob/main/02-logic/BisgraterthanA.png)
 
-   B is less than A:
+   B < A:
 
    ![K-maps](https://github.com/Oma50385/digital-electronics/blob/main/02-logic/BislessthanA.png)
 
