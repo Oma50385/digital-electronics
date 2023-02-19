@@ -90,4 +90,4 @@
 
 2. Link to your public EDA Playground example:
 
-   [My link](https://www.edaplayground.com/x/ivAs)
+   [https://www.edaplayground.com/x/ivAs](https://www.edaplayground.com/x/ivAs)
