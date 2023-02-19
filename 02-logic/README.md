@@ -23,65 +23,65 @@
    Last two digits of my student ID: **54**
 
 ```vhdl
- p_stimulus : process
+   p_stimulus : process
 	begin
 		-- Report a note at the beginning of stimulus process
 		report "Stimulus process started" severity note;
 
 		-- first test case
-        s_b <= "101"; 
-        s_a <= "110"; 
+        s_b <= "0101"; 
+        s_a <= "0110"; 
         wait for 100 ns;
         -- Expected output
         assert ((s_B_greater_A = '0') and
                 (s_B_equals_A = '0') and
                 (s_B_less_A = '1'))
         -- If false, then report an error
-        report "Input combination A=101 B=110 FAILED" severity error;
+        report "Input combination A=0110 B=0101 FAILED" severity error;
 
         -- 2 test case
-        s_b <= "110"; 
-        s_a <= "110"; 
+        s_b <= "0110"; 
+        s_a <= "0110"; 
         wait for 100 ns;
         -- Expected output
         assert ((s_B_greater_A = '0') and
             	(s_B_equals_A = '1') and
           	    (s_B_less_A = '0'))
         -- If false, then report an error
-        report "Input combination A=110 B=110 FAILED" severity error;
+        report "Input combination A=0110 B=0110 FAILED" severity error;
 
         -- 3 test case
-        s_b <= "110"; 
-        s_a <= "100"; 
-        wait for 100 ns;
-        -- Expected output
-        assert ((s_B_greater_A = '1') and
-                (s_B_equals_A = '0') and
-                (s_B_less_A = '0'))
-        -- If false, then report an error
-        report "Input combination A=110 B=100 FAILED" severity error;
-
-        -- 4 test case
-        s_b <= "101"; 
-        s_a <= "000"; 
-        wait for 100 ns;
-        -- Expected output
-        assert ((s_B_greater_A = '1') and
-                (s_B_equals_A = '0') and
-                (s_B_less_A = '0'))
-        -- If false, then report an error
-        report "Input combination A=101 B=000 FAILED" severity error;
-
-        -- 5 test case with intentional mistake
-        s_b <= "001"; 
-        s_a <= "101"; 
+        s_b <= "0110"; 
+        s_a <= "0100"; 
         wait for 100 ns;
         -- Expected output
         assert ((s_B_greater_A = '0') and
                 (s_B_equals_A = '1') and
                 (s_B_less_A = '0'))
         -- If false, then report an error
-        report "Input combination A=001 B=101 FAILED" severity error;
+        report "Input combination A=0110 B=0100 FAILED" severity error;
+
+        -- 4 test case
+        s_b <= "0101"; 
+        s_a <= "0000"; 
+        wait for 100 ns;
+        -- Expected output
+        assert ((s_B_greater_A = '1') and
+                (s_B_equals_A = '0') and
+                (s_B_less_A = '0'))
+        -- If false, then report an error
+        report "Input combination A=0000 B=0101 FAILED" severity error;
+
+        -- 5 test case with intentional mistake
+        s_b <= "0001"; 
+        s_a <= "0101"; 
+        wait for 100 ns;
+        -- Expected output
+        assert ((s_B_greater_A = '0') and
+                (s_B_equals_A = '0') and
+                (s_B_less_A = '1'))
+        -- If false, then report an error
+        report "Input combination A=0101 B=0001 FAILED" severity error;
 
         report "Stimulus process finished" severity note;
         wait;
