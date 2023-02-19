@@ -29,8 +29,8 @@
 		report "Stimulus process started" severity note;
 
 		-- 1 test case
-        s_b <= "1000"; 
-        s_a <= "1001"; 
+        s_b <= "101"; 
+        s_a <= "110"; 
         wait for 100 ns;
         -- Expected output
         assert ((s_B_greater_A = '0') and
