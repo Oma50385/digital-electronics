@@ -28,7 +28,7 @@
 		-- Report a note at the beginning of stimulus process
 		report "Stimulus process started" severity note;
 
-		-- 1 test case
+		-- first test case
         s_b <= "101"; 
         s_a <= "110"; 
         wait for 100 ns;
