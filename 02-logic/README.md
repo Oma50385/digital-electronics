@@ -30,14 +30,14 @@
 
 		-- first test case
         s_b <= "0101"; 
-        s_a <= "0110"; 
+        s_a <= "0100"; 
         wait for 100 ns;
         -- Expected output
-        assert ((s_B_greater_A = '0') and
+        assert ((s_B_greater_A = '1') and
                 (s_B_equals_A = '0') and
-                (s_B_less_A = '1'))
+                (s_B_less_A = '0'))
         -- If false, then report an error
-        report "Input combination A=0110 B=0101 FAILED" severity error;
+        report "Input combination A=0100 B=0101 FAILED" severity error;
 
         -- 2 test case
         s_b <= "0110"; 
