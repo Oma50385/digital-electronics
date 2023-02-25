@@ -7,21 +7,21 @@
 ```vhdl
 entity mux_3bit_4to1 is
     port(
-        d           : in  std_logic_vector(2 downto 0);
-        c           : in  std_logic_vector(2 downto 0);
-        b           : in  std_logic_vector(2 downto 0);
-        a           : in  std_logic_vector(2 downto 0);
+        d_i           : in  std_logic_vector(2 downto 0);
+        c_i           : in  std_logic_vector(2 downto 0);
+        b_i           : in  std_logic_vector(2 downto 0);
+        a_i           : in  std_logic_vector(2 downto 0);
         slc         : in  std_logic_vector(1 downto 0);
-        f           : out std_logic_vector(2 downto 0)
+        f_i           : out std_logic_vector(2 downto 0)
     );
 end mux_3bit_4to1;
 
 architecture Behavioral of mux_3bit_4to1 is
 begin
-    f <= a when (slc = "00") else
-         b when (slc = "01") else
-         c when (slc = "10") else
-         d;   
+    f_i <= a_i when (slc = "00") else
+         b_i when (slc = "01") else
+         c_i when (slc = "10") else
+         d_i;   
 end architecture Behavioral;
 ```
 
