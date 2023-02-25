@@ -5,11 +5,23 @@
 1. Listing of VHDL architecture from source file `mux_3bit_4to1.vhd`. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
 ```vhdl
+entity mux_3bit_4to1 is
+    port(
+        d           : in  std_logic_vector(2 downto 0);
+        c           : in  std_logic_vector(2 downto 0);
+        b           : in  std_logic_vector(2 downto 0);
+        a           : in  std_logic_vector(2 downto 0);
+        slc         : in  std_logic_vector(1 downto 0);
+        f           : out std_logic_vector(2 downto 0)
+    );
+end mux_3bit_4to1;
+
 architecture Behavioral of mux_3bit_4to1 is
 begin
-
-    -- WRITE YOUR CODE HERE
-
+    f <= a when (slc = "00") else
+         b when (slc = "01") else
+         c when (slc = "10") else
+         d;   
 end architecture Behavioral;
 ```
 
