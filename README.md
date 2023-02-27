@@ -18,4 +18,7 @@
    | d | 1101 | 1 | 0 | 0 | 0 | 0 | 1 | 0 |
    | E | 1110 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
    | F | 1111 | 0 | 1 | 1 | 1 | 0 | 0 | 0 |
+
+
+
 ![https://github.com/Oma50385/digital-electronics/blob/main/7-Segment-Display-Number-Formation-Segment-Contol.png](https://github.com/Oma50385/digital-electronics/blob/main/7-Segment-Display-Number-Formation-Segment-Contol.png) 
