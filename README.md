@@ -19,17 +19,6 @@
    | E | 1110 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
    | F | 1111 | 0 | 1 | 1 | 1 | 0 | 0 | 0 |
 
-  
-
-
-
-<a name="part1"></a>
-
-# Lab 4: Roman Lunin 
-
-
-### LED(7:4) indicators
-
 1. Complete the truth table for LEDs[7:4] according to comments in source code.
 
    | **Hex** | **Inputs** | **LED4** | **LED5** | **LED6** | **LED7** |
