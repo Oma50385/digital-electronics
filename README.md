@@ -25,7 +25,8 @@
 
 <a name="part1"></a>
 
-# Lab 4: Dmitrii Semenov
+# Lab 4: Roman Lunin 
+
 
 ### LED(7:4) indicators
 
