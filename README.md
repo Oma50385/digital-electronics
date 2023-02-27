@@ -19,7 +19,7 @@
    | E | 1110 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
    | F | 1111 | 0 | 1 | 1 | 1 | 0 | 0 | 0 |
 
-   ![https://github.com/evvejiji/digital-electronics-1/blob/main/04-segment/7-Segment-Display-Number-Formation-Segment-Contol.png](https://github.com/evvejiji/digital-electronics-1/blob/main/04-segment/7-Segment-Display-Number-Formation-Segment-Contol.png)
+  
 
 
 
